@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 OLD_VERSION=`cat VERSION`
 NEW_VERSION=$1
 
