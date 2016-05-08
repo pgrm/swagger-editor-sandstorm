@@ -1,13 +1,13 @@
 {
   "codegen": {
-    "servers": "http://generator.swagger.io/api/gen/servers",
-    "clients": "http://generator.swagger.io/api/gen/clients",
-    "server": "http://generator.swagger.io/api/gen/servers/{language}",
-    "client": "http://generator.swagger.io/api/gen/clients/{language}"
+    "servers": "https://generator.swagger.io/api/gen/servers",
+    "clients": "https://generator.swagger.io/api/gen/clients",
+    "server": "https://generator.swagger.io/api/gen/servers/{language}",
+    "client": "https://generator.swagger.io/api/gen/clients/{language}"
   },
   "analytics": {
     "google": {
-      "id": "UA-51231036-1"
+      
     }
   },
   "disableCodeGen": false,
