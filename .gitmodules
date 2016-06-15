@@ -1,0 +1,3 @@
+[submodule "swagger-editor"]
+	path = swagger-editor
+	url = git@github.com:pgrm/swagger-editor.git
