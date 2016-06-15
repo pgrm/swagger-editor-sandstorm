@@ -65,6 +65,7 @@ sed -i 's|<h3 class="modal-title">Import a File</h3>|<h3 class="modal-title">Imp
 # remove branding options
 sed -i 's/^.*branding.*$//g' index.html
 
+git add -A
 git commit -am "make the code sandstorm friendly"
 git push -f origin branch_v$VERSION
 
