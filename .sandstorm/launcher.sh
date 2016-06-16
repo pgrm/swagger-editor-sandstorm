@@ -10,7 +10,7 @@ mkdir -p /var/run
 
 if [ ! -d /var/editor ]; then
     mkdir -p /var/editor
-    cp /opt/app/swagger-editor/spec-files/*.yaml /var/editor/spec
+    cp /opt/app/swagger-editor/spec-files/default.yaml /var/editor/spec
 fi
 
 # Start nginx.
