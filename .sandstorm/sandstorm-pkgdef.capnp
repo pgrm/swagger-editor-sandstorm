@@ -19,9 +19,9 @@ const pkgdef :Spk.PackageDefinition = (
 
     appTitle = (defaultText = "Swagger Editor"),
 
-    appVersion = 16,  # Increment this for every release.
+    appVersion = 17,  # Increment this for every release.
 
-    appMarketingVersion = (defaultText = "2.10.1"),
+    appMarketingVersion = (defaultText = "2.10.3"),
     # Human-readable representation of appVersion. Should match the way you
     # identify versions of your app in documentation and marketing.
 
