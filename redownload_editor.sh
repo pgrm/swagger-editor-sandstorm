@@ -38,9 +38,6 @@ sed -i 's/"headerBranding": false/"headerBranding": true/g' config/defaults.json
 touch templates/branding-left.html
 touch templates/branding-right.html
 
-# use https instead of http
-sed -i "s|http://|https://|g" config/defaults.json
-
 # remove google analytics tracking id from default.json
 sed -i 's/"id": "UA-51231036-1"//g' config/defaults.json
 
